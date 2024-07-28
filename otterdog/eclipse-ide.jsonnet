@@ -5,6 +5,8 @@ orgs.newOrg('eclipse-ide') {
     billing_email: "thomas.froment@eclipse-foundation.org",
     default_repository_permission: "write",
     description: "This is both the official community entry point and the starting place for new contributors to the Eclipse IDE and platform-related projects.",
+    blog: "https://eclipseide.org/",
+    twitter_username: "EclipseJavaIDE",
     members_can_create_teams: true,
     name: "Eclipse IDE",
     web_commit_signoff_required: false,
