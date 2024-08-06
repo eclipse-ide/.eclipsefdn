@@ -16,8 +16,7 @@ orgs.newOrg('eclipse-ide') {
   },
   _repositories+:: [
     orgs.newRepo('.github') {
-      allow_merge_commit: true,
-      allow_update_branch: false,
+      has_issues : false,
       delete_branch_on_merge: false,
       web_commit_signoff_required: false,
     },
