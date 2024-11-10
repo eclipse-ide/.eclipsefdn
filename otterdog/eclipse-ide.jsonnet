@@ -21,5 +21,9 @@ orgs.newOrg('eclipse-ide') {
       delete_branch_on_merge: false,
       web_commit_signoff_required: false,
     },
+    orgs.newRepo('contributing') {
+      has_issues : true,
+      has_discussions : true,
+    },
   ],
 }
