@@ -9,6 +9,9 @@ orgs.newOrg('foundation-internal.eclipseide', 'eclipse-ide') {
     twitter_username: "EclipseJavaIDE",
     members_can_create_teams: true,
     name: "Eclipse IDE",
+    security_managers: [
+      "eclipsefdn-security",
+    ],
     web_commit_signoff_required: false,
     workflows+: {
       actions_can_approve_pull_request_reviews: false,
