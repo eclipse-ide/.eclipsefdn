@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-ide') {
+orgs.newOrg('foundation-internal.eclipseide', 'eclipse-ide') {
   settings+: {
     billing_email: "thomas.froment@eclipse-foundation.org",
     default_repository_permission: "write",
